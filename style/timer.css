@@ -1,0 +1,33 @@
+.timer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  column-gap: 30px;
+  max-width: 480px;
+  color: #FFFFFF;
+  font-weight: 700;
+  line-height: 130%;
+  background-color: #000;
+}
+
+.timer__title {
+  grid-column: 1/4;
+  align-self: end;
+  justify-self: center;
+  font-size: 16px;
+}
+
+.timer__count {
+  font-weight: 700;
+  font-size: 60px;
+}
+
+.timer__units {
+  font-weight: 700;
+  font-size: 32px;
+
+}
+
+.no-timer {
+  display: none;
+}
